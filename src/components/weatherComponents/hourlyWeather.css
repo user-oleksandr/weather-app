@@ -1,0 +1,48 @@
+.hourly-weather {
+    background-color: #22272E;
+    border-radius: 10px;
+    width: 50%;
+    color: #9DA7B3;
+    font-size: 80%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 568px) {
+    .hourly-weather {
+        font-size: 6px;
+    }
+}
+
+.hourly-weather-details {
+    display: flex;
+}
+
+.hourly-weather-item {
+    width: 7em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hourly-weather-item .time {
+    background-color: #2D333B;
+    text-align: center;
+    border-radius: 5px;
+    color: #006F9E;
+}
+
+.hourly-weather img {
+    width: 3.5em;
+    display: block;
+    margin: 0 auto;
+}
+
+.hour-weather-title {
+    background-color: #2D333B;
+    border-radius: 10px 10px 0 0;
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+    color: #006F9E;
+}

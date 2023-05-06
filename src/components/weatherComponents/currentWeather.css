@@ -1,0 +1,51 @@
+.current-box {
+    background-color: #22272E;
+    border-radius: 10px;
+    color: #9DA7B3;
+    width: 50%;
+    font-size: 80%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+@media (max-width: 568px) {
+    .current-box {
+        font-size: 6px;
+    }
+}
+
+.current-box .date {
+    text-align: center;
+    padding: 0.01em;
+    background-color: #2D333B;
+    border-radius: 10px 10px 0 0;
+    color: #006F9E;
+}
+
+.card-weather {
+    display: flex;
+    padding: 1em;
+}
+
+.image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    width: 6em;
+    height: 6em;
+}
+
+.contant {
+    width: 50%;
+    text-align: start;
+    display: flex;
+}
+
+.contant .box-2 {
+    padding-left: 25%;
+}

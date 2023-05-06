@@ -1,0 +1,42 @@
+.forecast-buttons {
+    border-radius: 0.313em;
+    margin-top: 2.5em;
+    text-align: center;
+}
+
+.forecast-buttons button {
+    border: 1px solid rgba(128, 128, 128, 0.51);
+    padding: 1%;
+    margin-left: 0.1em;
+    width: 12%;
+    background-color: #2D333B;
+    border-radius: 0.3125em;
+    color: #9DA7B3;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+@media (max-width: 968px) {
+    .forecast-buttons button {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .forecast-buttons button {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 568px) {
+    .forecast-buttons button {
+        font-size: 40%;
+    }
+}
+
+.forecast-buttons button.active {
+    background-color: #22272E;
+}
+
+.forecast-buttons button:hover {
+    background-color: #22272E;
+}

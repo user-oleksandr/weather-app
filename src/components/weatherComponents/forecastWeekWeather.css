@@ -1,0 +1,60 @@
+.forecast-week {
+    width: 50%;
+    background-color: #22272E;
+    border-radius: 10px;
+    color: #9DA7B3;
+    font-size: 80%;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 568px) {
+    .forecast-week {
+        font-size: 6px;
+    }
+}
+
+.weather-card {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box-title {
+    text-align: center;
+    padding: 1em;
+    background-color: #2D333B;
+    border-radius: 10px 10px 0 0;
+    color: #006F9E;
+}
+
+.card-forecast-week {
+    width: 200px;
+    text-align: center;
+    position: relative;
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+
+.card-forecast-week::after {
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.date {
+    background-color: #2D333B;
+    border-radius: 5px;
+    color: #006F9E;
+}
+
+.forecast-week img {
+    width: 50%;
+}
+
+.forecast-week h4 {
+    font-weight: 300;
+}

@@ -1,0 +1,66 @@
+footer {
+    background-color: #2D333B;
+    padding: 0.25em;
+    color: #9DA7B3;
+}
+
+@media (max-width: 968px) {
+    .container {
+        font-size: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        font-size: 75%;
+    }
+}
+
+@media (max-width: 568px) {
+    .container {
+        font-size: 55%;
+    }
+}
+
+.box-contact {
+    display: flex;
+}
+
+.contact a {
+    color: #9DA7B3;
+    text-decoration: none;
+    font-size: 80%;
+}
+
+.contact a:hover {
+    color: #006F9E;
+}
+
+.mail {
+    position: relative;
+    width: 50%;
+    text-align: end;
+    padding-right: 5em;
+}
+
+.social {
+    width: 50%;
+    text-align: start;
+    padding-left: 5em;
+}
+
+.mail h3,
+.social h3 {
+    color: #006F9E;
+    font-size: 90%;
+}
+
+.copy {
+    text-align: center;
+    font-size: 60%;
+    margin-top: 2em;
+}
+
+
+
+

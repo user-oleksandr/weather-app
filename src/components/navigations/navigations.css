@@ -1,0 +1,152 @@
+.navigations {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6em;
+    background-color: #2D333B;
+    color: #9DA7B3;
+}
+
+@media (max-width: 968px) {
+    .navigations {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navigations {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 568px) {
+    .navigations {
+        font-size: 8px;
+    }
+}
+
+.box-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0.5em;
+}
+
+.box-nav li {
+    padding: 2.5%;
+}
+
+.nav-button {
+    background-color: #2D333B;
+    color: #9DA7B3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 90%;
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.356);
+}
+
+.active .nav-button {
+    background-color: #22272E;
+}
+
+.nav-button:hover {
+    background-color: #22272E;
+    border-radius: 0.3125em;
+}
+
+input {
+    border: none;
+    border-radius: 0.3125em;
+    font-size: 80%;
+    background-color: #22272E;
+    text-align: center;
+    height: 3em;
+    width: 20em;
+    margin-right: 1em;
+    color: #9DA7B3;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+@media (max-width: 968px) {
+    input {
+        font-size: 10px;
+        width: 14em;
+    }
+}
+
+@media (max-width: 768px) {
+    input {
+        font-size: 8px;
+        width: 10em;
+    }
+}
+
+@media (max-width: 568px) {
+    input {
+        font-size: 6px;
+        width: 8em;
+    }
+}
+
+input:focus {
+    outline: none;
+    background-color: #1C2128;
+}
+
+.empty::placeholder {
+    color: #006F9E;
+    font-size: 1em;
+}
+
+.search {
+    border: none;
+    background-color: #1c212800;
+    font-size: 90%;
+    color: #9DA7B3;
+    width: 7em;
+    margin-right: 3em;
+    height: 2.7em;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.356);
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+}
+
+.search:hover {
+    background-color: #22272E;
+    border-radius: 0.3125em;
+}
+
+@media (max-width: 968px) {
+    .search {
+        width: 7em;
+    }
+}
+
+@media (max-width: 768px) {
+    .search {
+        width: 5em;
+    }
+}
+
+.location {
+    background-color: transparent;
+    border: 1px solid rgba(128, 128, 128, 0.356);
+    border-radius: 5px;
+    font-size: 90%;
+    color: #9DA7B3;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    padding: 0.85em;
+    margin-right: 1em;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+}
+
+.location:hover {
+    background-color: #22272E;
+    border-radius: 0.3125em;
+}

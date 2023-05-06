@@ -1,0 +1,49 @@
+.block-1 {
+    background-color: #22272E;
+    width: 65%;
+    margin: 0 auto;
+    color: #9DA7B3;
+    border-radius: 10px;
+    margin-top: 2em;
+    padding-top: 0.625em;
+    padding-bottom: 0.625em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 80%;
+}
+
+.block-2 {
+    display: flex;
+    margin: 0.3125em 1.25em;
+    background-color: #2D333B;
+    border-radius: 0.3125em;
+    padding-left: 1.5em;
+}
+
+.block-2 .time {
+    border-radius: 0.3125em;
+    color: #006F9E;
+}
+
+.block-2 img {
+    width: 5%;
+    height: 5%;
+    margin-left: 5%;
+}
+
+.block-2 .humid,
+.block-2 .clouds,
+.block-2 .temp,
+.block-2 .temp,
+.block-2 .rain,
+.block-2 .visibility {
+    width: 10%;
+}
+
+.block-2 .wind,
+.block-2 .pressure {
+    width: 15%;
+}
+
+.block-2 .wind {
+    margin-left: 5%;
+}

@@ -1,0 +1,28 @@
+.mapPage {
+    height: 35em;
+}
+
+@media (max-width: 768px) {
+    .mapPage {
+        height: 27.5em;
+
+    }
+}
+
+@media (max-width: 968px) {
+    .mapPage h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 768px) {
+    .mapPage h2 {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 568px) {
+    .mapPage h2 {
+        font-size: 0.75em;
+    }
+}

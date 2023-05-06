@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React, {useState} from "react";
+import {BrowserRouter as Router} from "react-router-dom";
+import Navigations from "./components/navigations/navigations";
+import Footer from "./components/footer/footer";
+import RoutesComponent from "./components/routes/routesComponent";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [city, setCity] = useState("");
+
+    const onCityChange = (city) => {
+        setCity(city);
+    };
+
+    return (
+        <Router>
+            <Navigations onCityChange={onCityChange}/>
+            <RoutesComponent city={city}/>
+            <Footer/>
+        </Router>
+    );
 }
 
 export default App;

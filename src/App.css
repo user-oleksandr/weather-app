@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: 'Space Grotesk', sans-serif;
+    background: #1C2128;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+    padding: 0.8em;
+    width: fit-content;
+    font-size: 1.5em;
+    margin: 0 auto;
+    text-align: end;
+    margin-bottom: 2em;
+    color: #006F9E;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* styles for popup */
+.tooltip {
+    visibility: hidden;
+    border-radius: 0.25em;
+    padding: 0.25em 0.25em;
+    position: absolute;
+    z-index: 5;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.tooltip::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -0.3125em;
+    border-width: 0.3125em;
+    border-style: solid;
+    border-color: transparent transparent #2D333B transparent;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.temp:hover .tooltip,
+.humid:hover .tooltip,
+.wind:hover .tooltip,
+.visibility:hover .tooltip,
+.air:hover .tooltip,
+.sunrise:hover .tooltip,
+.sunset:hover .tooltip,
+.pressure:hover .tooltip,
+.clouds:hover .tooltip,
+.rain:hover .tooltip {
+    visibility: visible;
+    background-color: #3e4651;
+    color: #006F98;
+    width: fit-content;
 }
