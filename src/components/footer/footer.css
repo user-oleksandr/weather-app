@@ -16,12 +16,6 @@ footer {
     }
 }
 
-@media (max-width: 568px) {
-    .container {
-        font-size: 55%;
-    }
-}
-
 .box-contact {
     display: flex;
 }
@@ -60,7 +54,3 @@ footer {
     font-size: 60%;
     margin-top: 2em;
 }
-
-
-
-

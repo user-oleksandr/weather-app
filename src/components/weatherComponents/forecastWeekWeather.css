@@ -8,12 +8,6 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-@media (max-width: 568px) {
-    .forecast-week {
-        font-size: 6px;
-    }
-}
-
 .weather-card {
     display: flex;
     width: 80%;

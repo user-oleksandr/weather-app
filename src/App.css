@@ -4,6 +4,8 @@ body {
     position: relative;
     font-family: 'Space Grotesk', sans-serif;
     background: #1C2128;
+    min-width: 600px;
+    overflow-x: hidden;
 }
 
 h2 {

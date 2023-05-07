@@ -15,9 +15,4 @@
     }
 }
 
-@media (max-width: 568px) {
-    .currentPage {
-        font-size: 50%;
-        height: 51em;
-    }
-}
+
