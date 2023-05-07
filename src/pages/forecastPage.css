@@ -15,10 +15,3 @@
         min-height: 42em;
     }
 }
-
-@media (max-width: 568px) {
-    .forecastPage {
-        font-size: 50%;
-        min-height: 55em;
-    }
-}
