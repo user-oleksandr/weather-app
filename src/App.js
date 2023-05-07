@@ -1,6 +1,6 @@
 import "./App.css";
 import React, {useState} from "react";
-import {BrowserRouter as Router} from "react-router-dom";
+import {HashRouter as Router} from "react-router-dom";
 import Navigations from "./components/navigations/navigations";
 import Footer from "./components/footer/footer";
 import RoutesComponent from "./components/routes/routesComponent";
