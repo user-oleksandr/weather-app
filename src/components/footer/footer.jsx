@@ -9,7 +9,7 @@ function Footer() {
                     <div className="box-contact">
                         <div className="mail">
                             <h3>Contact</h3>
-                            <a href="mailto:aavwork@ukr.net" target="_blank" className="test">
+                            <a href="mailto:aavwork@ukr.net" target="_blank">
                                 aavwork@ukr.net
                             </a>
                             <br/>

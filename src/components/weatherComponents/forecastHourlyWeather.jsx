@@ -6,7 +6,6 @@ import {
     FaEye,
     FaTint,
     FaTachometerAlt,
-    FaCloudRain,
     FaCloud,
 } from "react-icons/fa";
 
@@ -49,11 +48,6 @@ function ForecastHourlyWeather({forecastList}) {
                     <p className="clouds">
                         <FaCloud className="icon"/> <span className="tooltip">Clouds</span>
                         {forecast.clouds.all}%
-                    </p>
-                    <p className="rain">
-                        <FaCloudRain className="icon"/>{" "}
-                        <span className="tooltip">Rain</span>
-                        {Math.round(forecast.pop)}%
                     </p>
                     <p className="pressure">
                         <FaTachometerAlt className="icon"/>{" "}

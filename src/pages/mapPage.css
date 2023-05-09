@@ -1,22 +1,13 @@
-.mapPage {
-    height: 35em;
+@media (min-width: 768px) {
+    .mapPage {
+        min-height: 35em;
+    }
 }
 
+
+/*styles for tablets and phones*/
 @media (max-width: 768px) {
     .mapPage {
-        height: 27.5em;
-
-    }
-}
-
-@media (max-width: 968px) {
-    .mapPage h2 {
-        font-size: 1.2em;
-    }
-}
-
-@media (max-width: 768px) {
-    .mapPage h2 {
-        font-size: 0.9em;
+        min-height: 50em;
     }
 }

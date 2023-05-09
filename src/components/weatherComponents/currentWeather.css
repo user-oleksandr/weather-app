@@ -1,45 +1,104 @@
-.current-box {
-    background-color: #22272E;
-    border-radius: 10px;
-    color: #9DA7B3;
-    width: 50%;
-    font-size: 80%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    margin: 0 auto;
-    margin-bottom: 2em;
+@media (min-width: 768px) {
+    .current-box {
+        background-color: #22272E;
+        border-radius: 5px;
+        color: #9DA7B3;
+        width: 65%;
+        font-size: 0.8em;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        margin: 0 auto;
+        margin-bottom: 5em;
+        margin-top: 5em;
+    }
+
+    .current-box .date {
+        text-align: center;
+        padding: 0.01em;
+        background-color: #2D333B;
+        border-radius: 5px 5px 0 0;
+        color: #006F9E;
+    }
+
+    .card-weather {
+        display: flex;
+        padding: 1em;
+    }
+
+    .image {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image img {
+        width: 6em;
+        height: 6em;
+    }
+
+    .contant {
+        width: 50%;
+        text-align: start;
+        display: flex;
+    }
+
+    .contant .box-1 {
+        width: 50%;
+    }
+
+    .contant .box-2 {
+        width: 50%;
+    }
 }
 
-.current-box .date {
-    text-align: center;
-    padding: 0.01em;
-    background-color: #2D333B;
-    border-radius: 10px 10px 0 0;
-    color: #006F9E;
-}
 
-.card-weather {
-    display: flex;
-    padding: 1em;
-}
+/*styles for tablets and phones*/
 
-.image {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+@media (max-width: 768px) {
+    .current-box {
+        background-color: #22272E;
+        border-radius: 5px;
+        color: #9DA7B3;
+        width: 95%;
+        margin: 0 auto;
+        font-size: 0.8em;
+        margin-bottom: 5em;
+        margin-top: 5em;
+    }
 
-.image img {
-    width: 6em;
-    height: 6em;
-}
+    .current-box .date {
+        text-align: center;
+        padding: 0.01em;
+        background-color: #2D333B;
+        border-radius: 5px 5px 0 0;
+        color: #006F9E;
+    }
 
-.contant {
-    width: 50%;
-    text-align: start;
-    display: flex;
-}
+    .card-weather {
+        padding: 2.5em;
+    }
 
-.contant .box-2 {
-    padding-left: 25%;
+    .image {
+        text-align: center;
+    }
+
+    .image img {
+        width: 6em;
+        height: 6em;
+    }
+
+    .contant {
+        width: 50%;
+        text-align: center;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .contant .box-1 {
+        width: 50%;
+    }
+
+    .contant .box-2 {
+        width: 50%;
+    }
 }

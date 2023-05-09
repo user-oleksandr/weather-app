@@ -1,42 +1,85 @@
-.hourly-weather {
-    background-color: #22272E;
-    border-radius: 10px;
-    width: 50%;
-    color: #9DA7B3;
-    font-size: 80%;
-    margin: 0 auto;
-    margin-bottom: 2em;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+@media (min-width: 768px) {
+    .hourly-weather {
+        background-color: #22272E;
+        border-radius: 5px;
+        width: 65%;
+        color: #9DA7B3;
+        font-size: 0.8em;
+        margin: 0 auto;
+        margin-bottom: 5em;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .hourly-weather-details {
+        display: flex;
+    }
+
+    .hourly-weather-item {
+        width: 9vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .hourly-weather-item .time {
+        background-color: #2D333B;
+        text-align: center;
+        border-radius: 5px;
+        color: #006F9E;
+    }
+
+    .hourly-weather img {
+        width: 3.5em;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .hour-weather-title {
+        background-color: #2D333B;
+        border-radius: 5px 5px 0 0;
+        margin: 0 auto;
+        padding: 1em;
+        text-align: center;
+        color: #006F9E;
+    }
 }
 
-.hourly-weather-details {
-    display: flex;
-}
 
-.hourly-weather-item {
-    width: 7em;
-    margin: 0 auto;
-    text-align: center;
-}
+/*styles for tablets and phones*/
 
-.hourly-weather-item .time {
-    background-color: #2D333B;
-    text-align: center;
-    border-radius: 5px;
-    color: #006F9E;
-}
+@media (max-width: 768px) {
+    .hourly-weather {
+        background-color: #22272E;
+        border-radius: 5px;
+        width: 95%;
+        margin: 0 auto;
+        color: #9DA7B3;
+        font-size: 0.85em;
+        margin-bottom: 5em;
+    }
 
-.hourly-weather img {
-    width: 3.5em;
-    display: block;
-    margin: 0 auto;
-}
+    .hourly-weather-item {
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 1.5em;
+    }
 
-.hour-weather-title {
-    background-color: #2D333B;
-    border-radius: 10px 10px 0 0;
-    margin: 0 auto;
-    padding: 1em;
-    text-align: center;
-    color: #006F9E;
+    .hourly-weather-item .time {
+        background-color: #2D333B;
+        border-radius: 5px;
+        color: #006F9E;
+    }
+
+    .hourly-weather img {
+        width: 4.5em;
+        margin: 0 auto;
+    }
+
+    .hour-weather-title {
+        background-color: #2D333B;
+        margin: 0 auto;
+        padding: 1em;
+        text-align: center;
+        color: #006F9E;
+        border-radius: 5px 5px 0 0;
+    }
 }

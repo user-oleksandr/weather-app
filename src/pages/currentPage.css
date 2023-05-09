@@ -1,18 +1,4 @@
 .currentPage {
     margin-bottom: 5em;
-    min-height: 50em;
+    min-height: 80vw;
 }
-
-@media (max-width: 968px) {
-    .currentPage {
-        font-size: 80%;
-    }
-}
-
-@media (max-width: 768px) {
-    .currentPage {
-        font-size: 50%;
-    }
-}
-
-

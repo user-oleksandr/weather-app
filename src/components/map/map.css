@@ -1,23 +1,17 @@
-.map {
-    height: 30em;
-    width: 60%;
-    border-radius: 10px;
-    margin: 0 auto;
-}
-
-.content-weather-map img {
-    width: 5em;
-}
-
-@media screen and (max-width: 768px) {
+@media (min-width: 768px) {
     .map {
-        height: 20em;
+        height: 30em;
         width: 80%;
-        border-radius: 5px;
+        border-radius: 10px;
         margin: 0 auto;
     }
+}
 
-    .content-weather-map img {
-        width: 3em;
+@media (max-width: 768px) {
+    .map {
+        height: 50em;
+        width: 95%;
+        border-radius: 5px;
+        margin: 0 auto;
     }
 }

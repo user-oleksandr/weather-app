@@ -2,6 +2,7 @@ import CurrentWeather from "../components/weatherComponents/currentWeather";
 import HourlyWeather from "../components/weatherComponents/hourlyWeather";
 import ForecastWeather from "../components/weatherComponents/forecastWeekWeather";
 import "./currentPage.css";
+import React from "react";
 
 
 function CurrentPage({city}) {

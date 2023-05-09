@@ -1,139 +1,209 @@
-.navigations {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 6em;
-    background-color: #2D333B;
-    color: #9DA7B3;
-}
-
-@media (max-width: 968px) {
+@media (min-width: 768px) {
     .navigations {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 6em;
+        background-color: #2D333B;
+        color: #9DA7B3;
+    }
+
+    .box-nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0.5em;
+    }
+
+    .box-nav li {
+        padding: 0.35em;
+    }
+
+    .nav-button {
+        background-color: #2D333B;
+        color: #9DA7B3;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 1em;
+        border-radius: 5px;
+        border: 1px solid rgba(128, 128, 128, 0.356);
+    }
+
+    .active .nav-button {
+        background-color: #22272E;
+    }
+
+    .nav-button:hover {
+        background-color: #22272E;
+        border-radius: 5px;
+    }
+
+    .box-input {
+        margin-right: 6em;
+    }
+
+    input {
+        border: none;
+        border-radius: 5px;
         font-size: 12px;
+        width: 12em;
+        background-color: #22272E;
+        text-align: center;
+        padding: 1em;
+        margin-right: 0.5em;
+        color: #9DA7B3;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+
+    input:focus {
+        outline: none;
+        background-color: #1C2128;
+    }
+
+    .empty::placeholder {
+        color: #006F9E;
+        font-size: 14px;
+    }
+
+    .search {
+        background-color: #1c212800;
+        font-size: 14px;
+        color: #9DA7B3;
+        padding: 0.75em;
+        border-radius: 5px;
+        border: 1px solid rgba(128, 128, 128, 0.356);
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 700;
+    }
+
+    .search:hover {
+        background-color: #22272E;
+        border-radius: 5px;
+    }
+
+    .location {
+        background-color: transparent;
+        border: 1px solid rgba(128, 128, 128, 0.356);
+        border-radius: 5px;
+        font-size: 14px;
+        color: #9DA7B3;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        text-decoration: none;
+        padding: 0.8em;
+        margin-right: 1em;
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 700;
+    }
+
+    .location:hover {
+        background-color: #22272E;
+        border-radius: 5px;
     }
 }
 
 @media (max-width: 768px) {
     .navigations {
-        font-size: 10px;
+        background-color: #2D333B;
+        color: #9DA7B3;
     }
-}
 
-.box-nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0.5em;
-}
+    .box-nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0.5em;
+    }
 
-.box-nav li {
-    padding: 2.5%;
-}
+    .box-nav li {
+        padding: 0.10em;
+    }
 
-.nav-button {
-    background-color: #2D333B;
-    color: #9DA7B3;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 90%;
-    padding: 1em;
-    border-radius: 5px;
-    border: 1px solid rgba(128, 128, 128, 0.356);
-}
+    .nav-button {
+        background-color: #2D333B;
+        color: #9DA7B3;
+        text-decoration: none;
+        font-weight: bold;
+        width: 100%;
+        padding: 1em 4.75vw;
+        border-radius: 5px;
+        border: 1px solid rgba(128, 128, 128, 0.356);
+    }
 
-.active .nav-button {
-    background-color: #22272E;
-}
+    .active .nav-button {
+        background-color: #22272E;
+    }
 
-.nav-button:hover {
-    background-color: #22272E;
-    border-radius: 0.3125em;
-}
+    .nav-button:hover {
+        background-color: #22272E;
+        border-radius: 5px;
+    }
 
-input {
-    border: none;
-    border-radius: 0.3125em;
-    font-size: 80%;
-    background-color: #22272E;
-    text-align: center;
-    height: 3em;
-    width: 20em;
-    margin-right: 1em;
-    color: #9DA7B3;
-    font-family: 'Space Grotesk', sans-serif;
-}
+    .input-button {
+        padding: 0 10px;
 
-@media (max-width: 968px) {
+    }
+
     input {
-        font-size: 10px;
-        width: 14em;
+        border: none;
+        border-radius: 5px;
+        font-size: 12px;
+        width: 60%;
+        background-color: #22272E;
+        text-align: center;
+        padding: 1em;
+        color: #9DA7B3;
+        font-family: 'Space Grotesk', sans-serif;
     }
-}
 
-@media (max-width: 768px) {
-    input {
-        font-size: 8px;
-        width: 10em;
+    input:focus {
+        outline: none;
+        background-color: #1C2128;
     }
-}
 
-input:focus {
-    outline: none;
-    background-color: #1C2128;
-}
+    .empty::placeholder {
+        color: #006F9E;
+        font-size: 14px;
+    }
 
-.empty::placeholder {
-    color: #006F9E;
-    font-size: 1em;
-}
-
-.search {
-    border: none;
-    background-color: #1c212800;
-    font-size: 90%;
-    color: #9DA7B3;
-    width: 7em;
-    margin-right: 3em;
-    height: 2.7em;
-    border-radius: 5px;
-    border: 1px solid rgba(128, 128, 128, 0.356);
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 700;
-}
-
-.search:hover {
-    background-color: #22272E;
-    border-radius: 0.3125em;
-}
-
-@media (max-width: 968px) {
     .search {
-        width: 7em;
+        background-color: #1c212800;
+        font-size: 14px;
+        color: #9DA7B3;
+        width: 30%;
+        float: right;
+        padding: 0.75em;
+        border-radius: 5px;
+        border: 1px solid rgba(128, 128, 128, 0.356);
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 700;
     }
-}
 
-@media (max-width: 768px) {
-    .search {
-        width: 6em;
+    .search:hover {
+        background-color: #22272E;
+        border-radius: 5px;
     }
-}
 
-.location {
-    background-color: transparent;
-    border: 1px solid rgba(128, 128, 128, 0.356);
-    border-radius: 5px;
-    font-size: 90%;
-    color: #9DA7B3;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    text-decoration: none;
-    padding: 0.85em;
-    margin-right: 1em;
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 700;
-}
+    .box-location {
+        padding: 10px;
+    }
 
-.location:hover {
-    background-color: #22272E;
-    border-radius: 0.3125em;
+    .location {
+        background-color: transparent;
+        border: 1px solid rgba(128, 128, 128, 0.356);
+        border-radius: 5px;
+        font-size: 14px;
+        color: #9DA7B3;
+        cursor: pointer;
+        width: 100%;
+        transition: all 0.2s ease-in-out;
+        text-decoration: none;
+        padding: 0.8em;
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 700;
+    }
+
+    .location:hover {
+        background-color: #22272E;
+        border-radius: 5px;
+    }
 }

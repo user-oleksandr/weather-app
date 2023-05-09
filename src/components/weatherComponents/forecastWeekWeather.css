@@ -1,54 +1,98 @@
-.forecast-week {
-    width: 50%;
-    background-color: #22272E;
-    border-radius: 10px;
-    color: #9DA7B3;
-    font-size: 80%;
-    margin: 0 auto;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+@media (min-width: 768px) {
+    .forecast-week {
+        width: 65%;
+        background-color: #22272E;
+        border-radius: 5px;
+        color: #9DA7B3;
+        font-size: 0.8em;
+        margin: 0 auto;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .weather-card {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .box-title {
+        text-align: center;
+        padding: 1em;
+        background-color: #2D333B;
+        border-radius: 5px 5px 0 0;
+        color: #006F9E;
+    }
+
+    .card-forecast-week {
+        width: 15vw;
+        text-align: center;
+        position: relative;
+        margin-left: 1em;
+        margin-bottom: 2em;
+    }
+
+    .card-forecast-week::after {
+        content: "";
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .date {
+        background-color: #2D333B;
+        border-radius: 5px;
+        color: #006F9E;
+    }
+
+    .forecast-week img {
+        width: 50%;
+    }
+
+    .forecast-week h4 {
+        font-weight: 300;
+    }
 }
 
-.weather-card {
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-}
 
-.box-title {
-    text-align: center;
-    padding: 1em;
-    background-color: #2D333B;
-    border-radius: 10px 10px 0 0;
-    color: #006F9E;
-}
+/*styles for tablets and phones*/
 
-.card-forecast-week {
-    width: 200px;
-    text-align: center;
-    position: relative;
-    margin-left: 1em;
-    margin-bottom: 2em;
-}
+@media (max-width: 768px) {
+    .forecast-week {
+        width: 95%;
+        margin: 0 auto;
+        background-color: #22272E;
+        color: #9DA7B3;
+        font-size: 0.85em;
+    }
 
-.card-forecast-week::after {
-    content: "";
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
+    .weather-card {
+        width: 99%;
+        margin: 0 auto;
+        padding-bottom: 1em;
+        text-align: center;
+    }
 
-.date {
-    background-color: #2D333B;
-    border-radius: 5px;
-    color: #006F9E;
-}
+    .box-title {
+        text-align: center;
+        padding: 1em;
+        background-color: #2D333B;
+        border-radius: 5px 5px 0 0;
+        color: #006F9E;
+    }
 
-.forecast-week img {
-    width: 50%;
-}
+    .card-forecast-week {
+        margin-bottom: 2.5em;
+    }
 
-.forecast-week h4 {
-    font-weight: 300;
+    .date {
+        background-color: #2D333B;
+        border-radius: 5px;
+        color: #006F9E;
+    }
+
+    .forecast-week img {
+        width: 4.5em;
+    }
 }
