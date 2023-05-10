@@ -7,7 +7,6 @@
         font-size: 0.8em;
         margin: 0 auto;
         margin-bottom: 5em;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     }
 
     .hourly-weather-details {
@@ -44,16 +43,14 @@
 }
 
 
-/*styles for tablets and phones*/
-
 @media (max-width: 768px) {
     .hourly-weather {
         background-color: #22272E;
         border-radius: 5px;
-        width: 95%;
+        width: 85%;
         margin: 0 auto;
         color: #9DA7B3;
-        font-size: 0.85em;
+        font-size: 0.8em;
         margin-bottom: 5em;
     }
 
@@ -70,7 +67,7 @@
     }
 
     .hourly-weather img {
-        width: 4.5em;
+        width: 5em;
         margin: 0 auto;
     }
 

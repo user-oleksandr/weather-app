@@ -1,11 +1,10 @@
 @media (min-width: 768px) {
     .mapPage {
-        min-height: 35em;
+        min-height: 50em;
     }
 }
 
 
-/*styles for tablets and phones*/
 @media (max-width: 768px) {
     .mapPage {
         min-height: 50em;

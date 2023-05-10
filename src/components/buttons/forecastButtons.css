@@ -6,7 +6,7 @@
     }
 
     .forecast-buttons button {
-        border: 1px solid rgba(128, 128, 128, 0.51);
+        border: none;
         padding: 1vw;
         margin-left: 0.5vw;
         width: 12%;
@@ -15,7 +15,6 @@
         border-radius: 5px;
         color: #9DA7B3;
         font-family: 'Space Grotesk', sans-serif;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     }
 
     .forecast-buttons button.active {
@@ -28,25 +27,23 @@
 }
 
 
-/*styles for tablets and phones*/
-
 @media (max-width: 768px) {
     .forecast-buttons {
-        border-radius: 5px;
         margin-top: 2.5em;
         text-align: center;
     }
 
     .forecast-buttons button {
-        border: 1px solid rgba(128, 128, 128, 0.51);
-        padding: 1%;
-        margin-left: 0.1em;
+        border: none;
+        width: 85%;
+        padding: 1em;
+        margin-left: 0.5em;
+        margin-bottom: 0.5em;
         font-size: 0.8em;
         background-color: #2D333B;
         border-radius: 5px;
         color: #9DA7B3;
         font-family: 'Space Grotesk', sans-serif;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     }
 
     .forecast-buttons button.active {

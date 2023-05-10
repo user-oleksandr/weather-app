@@ -6,7 +6,6 @@
         color: #9DA7B3;
         font-size: 0.8em;
         margin: 0 auto;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     }
 
     .weather-card {
@@ -56,19 +55,19 @@
 }
 
 
-/*styles for tablets and phones*/
-
 @media (max-width: 768px) {
     .forecast-week {
-        width: 95%;
+        width: 85%;
         margin: 0 auto;
         background-color: #22272E;
         color: #9DA7B3;
-        font-size: 0.85em;
+        font-size: 0.8em;
+        border-radius: 5px;
+
     }
 
     .weather-card {
-        width: 99%;
+        width: 100%;
         margin: 0 auto;
         padding-bottom: 1em;
         text-align: center;
@@ -93,6 +92,6 @@
     }
 
     .forecast-week img {
-        width: 4.5em;
+        width: 5em;
     }
 }

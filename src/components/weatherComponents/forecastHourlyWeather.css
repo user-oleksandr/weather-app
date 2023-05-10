@@ -1,6 +1,5 @@
 @media (min-width: 768px) {
     .block-1 {
-        background-color: #22272E;
         width: 65%;
         margin: 0 auto;
         color: #9DA7B3;
@@ -8,7 +7,6 @@
         margin-top: 2.5em;
         padding-top: 0.625em;
         padding-bottom: 0.625em;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
         font-size: 0.8em;
     }
 
@@ -54,27 +52,22 @@
 }
 
 
-/*styles for tablets and phones*/
-
 @media (max-width: 768px) {
     .block-1 {
-        background-color: #22272E;
-        width: 95%;
-        margin: 0 auto;
         color: #9DA7B3;
         border-radius: 5px;
         margin-top: 2em;
         margin-bottom: 7.5em;
         padding-top: 0.625em;
         padding-bottom: 0.625em;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
         font-size: 0.8em;
     }
 
     .block-2 {
-        margin: 0.3125em 1.25em;
         padding-bottom: 2em;
         background-color: #2D333B;
+        width: 85%;
+        margin: 0 auto;
         border-radius: 5px;
         text-align: center;
     }
@@ -87,12 +80,6 @@
     }
 
     .block-2 img {
-        width: 10%;
-        height: 10%;
-    }
-
-    .block-2 img {
-        width: 10%;
-        height: 10%;
+        width: 5em;
     }
 }

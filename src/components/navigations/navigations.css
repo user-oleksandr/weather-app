@@ -20,13 +20,13 @@
     }
 
     .nav-button {
-        background-color: #2D333B;
+        background-color: rgba(49, 56, 65, 0.65);
         color: #9DA7B3;
         text-decoration: none;
         font-weight: bold;
         padding: 1em;
         border-radius: 5px;
-        border: 1px solid rgba(128, 128, 128, 0.356);
+        border: none;
     }
 
     .active .nav-button {
@@ -47,7 +47,7 @@
         border-radius: 5px;
         font-size: 12px;
         width: 12em;
-        background-color: #22272E;
+        background-color: rgba(49, 56, 65, 0.65);
         text-align: center;
         padding: 1em;
         margin-right: 0.5em;
@@ -57,21 +57,22 @@
 
     input:focus {
         outline: none;
-        background-color: #1C2128;
+        background-color: rgb(55, 62, 72);
+
     }
 
     .empty::placeholder {
-        color: #006F9E;
+        color: orangered;
         font-size: 14px;
     }
 
     .search {
-        background-color: #1c212800;
+        background-color: rgba(49, 56, 65, 0.65);
         font-size: 14px;
         color: #9DA7B3;
         padding: 0.75em;
         border-radius: 5px;
-        border: 1px solid rgba(128, 128, 128, 0.356);
+        border: none;
         font-family: 'Space Grotesk', sans-serif;
         font-weight: 700;
     }
@@ -82,8 +83,8 @@
     }
 
     .location {
-        background-color: transparent;
-        border: 1px solid rgba(128, 128, 128, 0.356);
+        background-color: rgba(49, 56, 65, 0.65);
+        border: none;
         border-radius: 5px;
         font-size: 14px;
         color: #9DA7B3;
@@ -102,6 +103,7 @@
     }
 }
 
+
 @media (max-width: 768px) {
     .navigations {
         background-color: #2D333B;
@@ -115,18 +117,19 @@
     }
 
     .box-nav li {
-        padding: 0.10em;
+        padding: 0.30em 0.10em;
     }
 
     .nav-button {
-        background-color: #2D333B;
+        background-color: rgba(49, 56, 65, 0.65);
         color: #9DA7B3;
         text-decoration: none;
         font-weight: bold;
+        font-size: 14px;
         width: 100%;
         padding: 1em 4.75vw;
         border-radius: 5px;
-        border: 1px solid rgba(128, 128, 128, 0.356);
+        border: none;
     }
 
     .active .nav-button {
@@ -148,32 +151,32 @@
         border-radius: 5px;
         font-size: 12px;
         width: 60%;
-        background-color: #22272E;
+        background-color: rgba(49, 56, 65, 0.65);
         text-align: center;
-        padding: 1em;
+        padding: 1.2em;
         color: #9DA7B3;
         font-family: 'Space Grotesk', sans-serif;
     }
 
     input:focus {
         outline: none;
-        background-color: #1C2128;
+        background-color: rgb(55, 62, 72);
     }
 
     .empty::placeholder {
-        color: #006F9E;
+        color: orangered;
         font-size: 14px;
     }
 
     .search {
-        background-color: #1c212800;
+        background-color: rgba(49, 56, 65, 0.65);
         font-size: 14px;
         color: #9DA7B3;
         width: 30%;
         float: right;
-        padding: 0.75em;
+        padding: 0.95em;
         border-radius: 5px;
-        border: 1px solid rgba(128, 128, 128, 0.356);
+        border: none;
         font-family: 'Space Grotesk', sans-serif;
         font-weight: 700;
     }
@@ -188,8 +191,8 @@
     }
 
     .location {
-        background-color: transparent;
-        border: 1px solid rgba(128, 128, 128, 0.356);
+        background-color: rgba(49, 56, 65, 0.65);
+        border: none;
         border-radius: 5px;
         font-size: 14px;
         color: #9DA7B3;
@@ -197,7 +200,7 @@
         width: 100%;
         transition: all 0.2s ease-in-out;
         text-decoration: none;
-        padding: 0.8em;
+        padding: 0.95em;
         font-family: 'Space Grotesk', sans-serif;
         font-weight: 700;
     }

@@ -5,7 +5,6 @@
         color: #9DA7B3;
         width: 65%;
         font-size: 0.8em;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
         margin: 0 auto;
         margin-bottom: 5em;
         margin-top: 5em;
@@ -52,14 +51,12 @@
 }
 
 
-/*styles for tablets and phones*/
-
 @media (max-width: 768px) {
     .current-box {
         background-color: #22272E;
         border-radius: 5px;
         color: #9DA7B3;
-        width: 95%;
+        width: 85%;
         margin: 0 auto;
         font-size: 0.8em;
         margin-bottom: 5em;

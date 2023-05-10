@@ -46,8 +46,6 @@
 }
 
 
-/*styles for tablets and phones*/
-
 @media (max-width: 768px) {
     footer {
         background-color: #2D333B;
@@ -70,7 +68,7 @@
     .contact a {
         color: #9DA7B3;
         text-decoration: none;
-        font-size: 0.75em;
+        font-size: 0.8em;
     }
 
     .contact a:hover {
@@ -88,13 +86,12 @@
     .mail h3,
     .social h3 {
         color: #006F9E;
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
     .copy {
         text-align: center;
         margin-top: 2em;
-        font-size: 60%;
+        font-size: 0.5em;
     }
-
 }
