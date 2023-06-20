@@ -1,12 +1,26 @@
 @media (min-width: 768px) {
     .mapPage {
-        min-height: 50em;
+        min-height: 55em;
+        padding-top: 100px;
+        background-color: #1C2128;
+    }
+
+    .mapPage h2 {
+        color: #006f9e;
+        margin-bottom: 50px;
     }
 }
 
 
 @media (max-width: 768px) {
     .mapPage {
-        min-height: 50em;
+        min-height: 55em;
+        padding-top: 100px;
+        background-color: #1C2128;
+    }
+
+    .mapPage h2 {
+        color: #006f9e;
+        margin-bottom: 50px;
     }
 }

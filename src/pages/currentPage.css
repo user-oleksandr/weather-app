@@ -1,4 +1,10 @@
 .currentPage {
-    margin-bottom: 5em;
     min-height: 65em;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #1C2128;
+}
+
+.currentPage h2 {
+    color: #006f9e;
 }
