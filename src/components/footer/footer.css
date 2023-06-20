@@ -1,7 +1,7 @@
 @media (min-width: 768px) {
     footer {
         background-color: #2D333B;
-        padding: 0.25em;
+        padding: 1em 0.25em;
         color: #9DA7B3;
     }
 
@@ -49,7 +49,7 @@
 @media (max-width: 768px) {
     footer {
         background-color: #2D333B;
-        padding: 0.25em;
+        padding: 1em 0.25em;
         color: #9DA7B3;
     }
 
