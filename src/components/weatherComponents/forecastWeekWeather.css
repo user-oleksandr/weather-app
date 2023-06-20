@@ -21,6 +21,7 @@
         background-color: #2D333B;
         border-radius: 5px 5px 0 0;
         color: #006F9E;
+        font-size: 16px;
     }
 
     .card-forecast-week {
@@ -43,6 +44,7 @@
         background-color: #2D333B;
         border-radius: 5px;
         color: #006F9E;
+        font-size: 14px;
     }
 
     .forecast-week img {
@@ -79,6 +81,7 @@
         background-color: #2D333B;
         border-radius: 5px 5px 0 0;
         color: #006F9E;
+        font-size: 16px;
     }
 
     .card-forecast-week {
@@ -89,6 +92,7 @@
         background-color: #2D333B;
         border-radius: 5px;
         color: #006F9E;
+        font-size: 14px;
     }
 
     .forecast-week img {

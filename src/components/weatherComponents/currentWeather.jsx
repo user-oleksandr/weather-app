@@ -60,7 +60,7 @@ function CurrentWeather({city}) {
             {weatherData && (
                 <div className="current-box">
                     <div className="date">
-                        <h3>{new Date().toLocaleDateString()}</h3>
+                        <h3 style={{fontSize:'16px'}}>{new Date().toLocaleDateString()}</h3>
                     </div>
                     <div className="card-weather">
                         <div className="image">

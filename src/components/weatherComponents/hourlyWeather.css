@@ -24,6 +24,7 @@
         text-align: center;
         border-radius: 5px;
         color: #006F9E;
+        margin-top: 10px;
     }
 
     .hourly-weather img {
@@ -39,6 +40,7 @@
         padding: 1em;
         text-align: center;
         color: #006F9E;
+        font-size: 16px;
     }
 }
 
@@ -64,6 +66,8 @@
         background-color: #2D333B;
         border-radius: 5px;
         color: #006F9E;
+        margin-top: 10px;
+        font-size: 14px;
     }
 
     .hourly-weather img {
@@ -78,5 +82,6 @@
         text-align: center;
         color: #006F9E;
         border-radius: 5px 5px 0 0;
+        font-size: 16px;
     }
 }

@@ -141,7 +141,7 @@ function Navigations({onCityChange}) {
                                                         : 'form-control form-control-sm'
                                                 }
                                             />
-                                            <button className="btn btn-secondary btn-sm" type="submit">
+                                            <button className="btn btn-sm" type="submit" style={{backgroundColor:'#006F9E'}}>
                                                 Search
                                             </button>
                                         </div>
@@ -150,9 +150,10 @@ function Navigations({onCityChange}) {
 
                                 <div className='col mt-2'>
                                     <button
-                                        className="btn btn-secondary btn-sm w-100"
+                                        className="btn btn-sm w-100"
                                         type="button"
                                         onClick={handleLocation}
+                                        style={{backgroundColor:'#006F9E'}}
                                     >
                                         Location
                                     </button>
