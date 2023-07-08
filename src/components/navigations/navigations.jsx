@@ -82,7 +82,7 @@ function Navigations({onCityChange}) {
                     style={{color: '#006F9E'}}>Weather-app</h5>
 
                 <div className="offcanvas offcanvas-start text-bg-dark" tabIndex="-1" id="offcanvasDarkNavbarEnd"
-                     aria-labelledby="offcanvasDarkNavbarEndLabel" style={{width: '250px'}}>
+                     aria-labelledby="offcanvasDarkNavbarEndLabel" style={{width: '275px'}}>
                     <div className="offcanvas-header">
                         <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
